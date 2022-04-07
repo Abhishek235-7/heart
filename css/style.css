@@ -1,0 +1,33 @@
+.btn{
+    background-color: rgb(247, 109, 132);
+    color: white;
+}
+.carousel{
+    background-color: aquamarine;
+}
+.container{
+    margin-bottom: 60px;
+}
+.cat1{
+    background: linear-gradient(blue,rgb(252, 103, 103));
+    border-radius: 10px;
+  
+}
+.cat2{
+    background: linear-gradient(rgb(0, 255, 170),rgb(220, 245, 108));
+    border-radius: 10px;
+    
+}
+.cat3{
+    background: linear-gradient(rgb(255, 0, 106),rgb(41, 204, 245));
+    border-radius: 10px;
+}
+.catagories h1{
+    color: white;
+}
+.catagories img{
+    width: 100px;
+}
+.footer{
+    text-align: center;
+}

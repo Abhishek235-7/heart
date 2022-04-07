@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <img src="./img/logo.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active p-3">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1>LED TV</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a obcaecati quos cupiditate vero porro, quaerat dolor totam suscipit adipisci voluptatibus illum distinctio quis doloribus ducimus. Facere quasi alias voluptate.</p>
+                    <h1>$790</h1>
+                    <a href="#" class="btn shadow-lg">BUY NOW</a>
+                </div>
+                <div class="col-md-5"><img src="./img/tv.png" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7 p-5">
+                    <h1>Xbox</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a obcaecati quos cupiditate vero porro, quaerat dolor totam suscipit adipisci voluptatibus illum distinctio quis doloribus ducimus. Facere quasi alias voluptate.</p>
+                    <h1>$790</h1>
+                    <a href="#" class="btn">BUY NOW</a>
+                </div>
+                <div class="col-md-5"><img src="./img/xbox.png" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7 p-5">
+                    <h1>HeadPhone</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a obcaecati quos cupiditate vero porro, quaerat dolor totam suscipit adipisci voluptatibus illum distinctio quis doloribus ducimus. Facere quasi alias voluptate.</p>
+                    <h1>$790</h1>
+                    <a href="#" class="btn">BUY NOW</a>
+                </div>
+                <div class="col-md-5"><img src="./img/headphone.png" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container catagories">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="cat1 d-flex justify-content-between align-items-center p-3">
+              <h1>watch</h1>
+            <img src="./img/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat2 d-flex justify-content-between align-items-center p-3">
+              <h1>Bag</h1>
+            <img src="./img/bag.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat3 d-flex justify-content-between align-items-center p-3">
+              <h1>Shoes</h1>
+            <img src="./img/shoes.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="./img/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SPLY-350</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <h1>150$</h1>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="./img/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NIKE</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <h1>170$</h1>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="./img/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AIRMAX</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <h1>180$</h1>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="container">
+      <div class="container row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="./img/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OGIO</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <h1>80$</h1>
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="./img/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DURTON</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <h1>70$</h1>
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="./img/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PUMA</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <h1>90$</h1>
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="container d-flex justify-content-center">
+       <div class="footer">
+         <h1>Special title treatment</h1>
+         <p>With supporting text below as a natural lead-in to additional content.</p>
+         <input type="text" placeholder="Type here">
+         <a href="#" class="btn">Submit</a>
+         <br>
+         <br>
+         <p>Abhishak<i>&#169</i>2022</p>
+       </div>
+     </div>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
